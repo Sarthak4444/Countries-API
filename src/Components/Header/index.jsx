@@ -18,7 +18,7 @@ function Header( { onClick = () => {} , theme} = {} ) {
         <h2
           className={`${
             theme === true ? "text-[#001824]" : "text-[#ccd5ae]"
-          } text-4xl font-bold font-sans  ml-10`}
+          } md:text-4xl text-2xl font-bold font-sans  ml-10`}
         >
           Around the World
         </h2>

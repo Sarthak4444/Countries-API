@@ -53,7 +53,7 @@ function Main() {
 
   return (
     <div className="max-w-[1100px] m-auto">
-      <div className="flex items-center justify-between flex-col p-12 md:flex-row">
+      <div className="flex items-center justify-between flex-col p-12 pb-0 md:flex-row">
         <Search onInput={handleInput} />
         <Dropdown onChange={handleChange} />
       </div>

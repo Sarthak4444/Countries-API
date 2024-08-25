@@ -13,7 +13,7 @@ function Dropdown({ onChange = () => {}, value } = {}) {
       <select
         value={value}
         onChange={handleChange}
-        className={`ursor-pointer bg-transparent w-[250px] text-gray-30000 p-4 border-[1px] border-gray-300 outline-none shadow-md rounded-md text-text-color`}
+        className={`cursor-pointer bg-transparent w-[250px] text-gray-30000 p-4 border-[1px] border-gray-300 outline-none shadow-md rounded-md text-text-color mt-5 md:mt-0`}
       >
         <option hidden>Filter by Region</option>
         <option value="Africa">Africa</option>
