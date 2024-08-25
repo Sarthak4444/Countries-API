@@ -19,9 +19,9 @@ export default function Details() {
 
   return (
     <>
-      <div className="flex flex-row items-center ml-20 h-[87vh] p-40">
+      <div className="flex md:flex-row flex-col items-center  h-[87vh] lg:pl-40 pl-14">
         <img
-          className="w-[30rem] h-[20rem] mr-20"
+          className="md:w-[30rem] md:h-[20rem] my-10 mr-10 w-[15rem] h-[10rem]"
           src={details[0]?.flags.svg}
           alt="Country Flag"
         />

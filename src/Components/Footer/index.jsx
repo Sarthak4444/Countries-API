@@ -10,12 +10,12 @@ function Footer() {
       } flex items-center justify-between h-10 mt-10 absolute bottom-0 w-full`}>
       <h2 className={`${
         theme == true ? "text-[#003047]" : "text-[#dde7c7]"
-      } font-sans text-[#023047] ml-16`}>
+      } font-sans md:text-[16px] text-[8px] text-[#023047] ml-16`}>
         @Countries API | All rights reserved
       </h2>
       <h2 className={`${
         theme == true ? "text-[#003047]" : "text-[#dde7c7]"
-      } font-sans text-[#023047] mr-16 cursor-pointer`}>
+      } font-sans md:text-[16px] text-[8px] text-[#023047] mr-16 cursor-pointer`}>
         Terms & Conditions | Privacy Policy
       </h2>
       
