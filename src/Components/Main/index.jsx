@@ -20,7 +20,7 @@ function Main() {
   }, []);
 
   function handleInput(value) {
-    setQuery(value);
+    setQuery(value.toLowerCase());
   }
 
   function handleChange(value) {
